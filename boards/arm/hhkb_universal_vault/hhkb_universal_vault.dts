@@ -25,7 +25,7 @@
          */
     };
 
-    transform: transform_alpha_3x2u {
+    transform_alpha_3x2u: transform_alpha_3x2u {
         compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <11>;
