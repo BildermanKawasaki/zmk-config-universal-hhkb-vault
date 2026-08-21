@@ -1,8 +1,8 @@
 /*                KEY POSITIONS
 
   ╭─────────────────────────────────────────────╮
-  │ LT4 LT3 LT2 LT1 LT0 LTC RT0 RT1 RT2 RT3 RT4 │
-  │ LM4 LM3 LM2 LM1 LM0 LMC RM0 RM1 RM2 RM3 RM4 │
+  │ LT4 LT3 LT2 LT1 LT0 CT0 RT0 RT1 RT2 RT3 RT4 │
+  │ LM4 LM3 LM2 LM1 LM0 CM0 RM0 RM1 RM2 RM3 RM4 │
   │   LB4 LB3 LB2 LB1 LB0 RB0 RB1 RB2 RB3 RB4   │
   ╰───────────╮ LH1 LH0     RH0 RH1 ╭───────────╯
               ╰─────────────────────╯ */
@@ -65,4 +65,4 @@ ZMK_COMBO(fslh,  &kp FSLH,     RM2 RB2,     DEF NAV NUMFUN, COMBO_TERM_SLOW, COM
 ZMK_COMBO(pipe,  &kp PIPE,     RM3 RB3,     DEF NAV NUMFUN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Vertical combos - center */
-ZMK_COMBO(cepp,  &kp C_PP,     LTC LMC,     DEF NAV NUMFUN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cepp,  &kp C_PP,     CT0 CM0,     DEF NAV NUMFUN, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
