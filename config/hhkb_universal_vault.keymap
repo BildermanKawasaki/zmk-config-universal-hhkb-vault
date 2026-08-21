@@ -78,9 +78,9 @@ MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
 /* Magic-shift & auto-layers */
-ZMK_HOLD_TAP(shift_numfun, bindings = <&mo NUMFUN>, <&kp>; flavor = "balanced";
+ZMK_HOLD_TAP(shift_numfun, bindings = <&mo>, <&sk>; flavor = "balanced";
              tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
-ZMK_TAP_DANCE(magic_shift, bindings = <&shift_numfun 0 &sk LSFT>,<&caps_word>;
+ZMK_TAP_DANCE(magic_shift, bindings = <&shift_numfun NUMFUN LSFT>,<&caps_word>;
              tapping-term-ms = <200>;)
 &caps_word { // Mods deactivate caps-word, requires PR #1451. [TODO: rebase]
   /delete-property/ ignore-modifiers;
