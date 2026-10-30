@@ -25,7 +25,7 @@
          */
     };
 
-    transform_alpha_3x2u: transform_alpha_3x2u {
+    transform_uniform_2x175u: transform_uniform_2x175u {
         compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <11>;
@@ -38,7 +38,7 @@
         >;
     };
 
-    transform_uniform_2x175u: transform_uniform_2x175u {
+    transform_alpha_3x2u: transform_alpha_3x2u {    
         compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <11>;
